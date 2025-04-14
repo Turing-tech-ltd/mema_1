@@ -256,11 +256,6 @@ header h1 {
    gap: 4rem;
 }
 
-.BKgrid > div:nth-child(1) {
-   /* background-color: white;
-   padding: 1rem; */
-}
-
 .BKgrid > div:nth-child(1) > p {
    font-size: 1.7rem;
    font-weight: 700;
@@ -284,17 +279,6 @@ header h1 {
    object-fit: cover;
    object-position: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ======   F O O T E R   S E C T I O N   ====== */
 footer {
@@ -340,7 +324,7 @@ footer > div:last-child span {
    margin: 2rem 0 1.5rem;
 }
 
-footer > div:last-child img {
-   width: 7rem;
+footer img {
+   width: 10rem;
 }
 /* ====== E N D   O F   F O O T E R   S E C T I O N   ====== */

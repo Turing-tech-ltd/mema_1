@@ -255,11 +255,6 @@ header h1 {
    gap: 4rem;
 }
 
-.BKgrid > div:nth-child(1) {
-   /* background-color: white;
-   padding: 1rem; */
-}
-
 .BKgrid > div:nth-child(1) > p {
    font-size: 1.7rem;
    font-weight: 700;

@@ -376,8 +376,8 @@ footer > div:last-child span {
    margin: 2rem 0 1.5rem;
 }
 
-footer > div:last-child img {
-   width: 7rem;
+footer img {
+   width: 10rem;
 }
 /* ====== E N D   O F   F O O T E R   S E C T I O N   ====== */
 
@@ -467,7 +467,7 @@ footer > div:last-child img {
       letter-spacing: 0.2rem;
    }
 
-   footer > div:last-child img {
+   footer img {
       width: 20rem;
    }
 
