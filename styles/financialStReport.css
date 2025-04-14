@@ -225,7 +225,7 @@ header h1 {
 /* ===========  E N D   O F   N A V I G A T I O N   B A R  =========== */
 
 
-.PropertyMgtBK {
+.financialStRSection {
    margin: 7rem auto 0;
    width: 93%;
    display: flex;
@@ -241,7 +241,7 @@ header h1 {
    background-position: center;
 }
 
-.PropertyMgtBK > h2 {
+.financialStRSection > h2 {
    font-size: 4.5rem;
    line-height: 4.5rem;
    font-weight: 1000;
@@ -253,11 +253,6 @@ header h1 {
    display: grid;
    grid-template-columns: 6fr 4.5fr;
    gap: 4rem;
-}
-
-.BKgrid > div:nth-child(1) {
-   /* background-color: white;
-   padding: 1rem; */
 }
 
 .BKgrid > div:nth-child(1) > p {
@@ -284,6 +279,15 @@ header h1 {
    object-fit: cover;
    object-position: center;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -333,6 +337,6 @@ footer > div:last-child span {
 }
 
 footer > div:last-child img {
-   width: 7rem;
+   width: 10rem;
 }
 /* ====== E N D   O F   F O O T E R   S E C T I O N   ====== */

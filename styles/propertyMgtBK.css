@@ -225,7 +225,7 @@ header h1 {
 /* ===========  E N D   O F   N A V I G A T I O N   B A R  =========== */
 
 
-.budgetPrepSection {
+.PropertyMgtBK {
    margin: 7rem auto 0;
    width: 93%;
    display: flex;
@@ -241,7 +241,7 @@ header h1 {
    background-position: center;
 }
 
-.budgetPrepSection > h2 {
+.PropertyMgtBK > h2 {
    font-size: 4.5rem;
    line-height: 4.5rem;
    font-weight: 1000;
@@ -255,11 +255,6 @@ header h1 {
    gap: 4rem;
 }
 
-.BKgrid > div:nth-child(1) {
-   /* background-color: white;
-   padding: 1rem; */
-}
-
 .BKgrid > div:nth-child(1) > p {
    font-size: 1.7rem;
    font-weight: 700;
@@ -267,6 +262,7 @@ header h1 {
    color: var(--3rdGray);
    letter-spacing: 0.07rem;
    text-align: justify;
+   hyphens: auto;
 }
 
 .BKgrid > div:nth-child(2) {
@@ -283,12 +279,6 @@ header h1 {
    object-fit: cover;
    object-position: center;
 }
-
-
-
-
-
-
 
 
 
@@ -337,7 +327,7 @@ footer > div:last-child span {
    margin: 2rem 0 1.5rem;
 }
 
-footer > div:last-child img {
-   width: 7rem;
+footer img {
+   width: 10rem;
 }
 /* ====== E N D   O F   F O O T E R   S E C T I O N   ====== */
