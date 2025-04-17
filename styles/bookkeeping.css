@@ -15,6 +15,9 @@
    --2ndGray: #403c39;
    --3rdGray: #615d5c;
    --1stRed: #ef4237;
+   --gold-color: #f3bf35;
+   --black-color: #050608;
+   --white-col: #fff;
 }
 
 
@@ -63,7 +66,7 @@ header h1 {
    justify-content: space-between;
    padding: 1.3rem 5%;
    border-bottom: 0.2rem solid var(--1stBlue);
-   background-color: var(--4thBlue);
+   background-color: var(--gold-color);
    position: sticky;
    top: 0;
    z-index: 3;
@@ -263,7 +266,7 @@ header h1 {
 
 .BKgrid > div:nth-child(1) > p {
    font-size: 1.7rem;
-   font-weight: 700;
+   font-weight: 500;
    /* line-height: 2rem; */
    color: var(--3rdGray);
    text-align: justify;
@@ -334,3 +337,12 @@ footer img {
    width: 10rem;
 }
 /* ====== E N D   O F   F O O T E R   S E C T I O N   ====== */
+
+
+/* 
+@media (min-width: 768px){
+   .BKgrid > div:nth-child(1) > p {
+      text-align: justify;
+      hyphens: auto;
+   }
+} */
