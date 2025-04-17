@@ -306,7 +306,7 @@ header h1 {
 .cardSection > div:first-child > h2 {
    font-size: 4.5rem;
    /* line-height: 3.5rem; */
-   font-weight: 1000;
+   font-weight: 700;
    letter-spacing: 0.1rem;
    color: var(--1stBlue);
 }
@@ -324,13 +324,13 @@ header h1 {
 
 .cardSection > div:first-child > ul > li > a {
    text-decoration: none;
-   font-weight: 900;
+   font-weight: 500;
    font-size: 1.7rem;
    /* line-height: 1.6rem; */
    display: flex;
    align-items: center;
    gap: 0.8rem;
-   color: var(--2ndBlue);
+   color: var(--black-color);
    /* background-color: var(--4thBlue); */
    letter-spacing: 0.05rem;
    width: 100%;
@@ -339,8 +339,8 @@ header h1 {
 }
 
 .cardSection > div:first-child > ul > li > a:hover {
-   background-color: var(--1stBlue);
-   color: var(--4thBlue);
+   background-color: var(--black-color);
+   color: var(--white-col);
 }
 
 .cardSection > div:first-child > ul > li {
@@ -374,7 +374,7 @@ header h1 {
 }
 
 .cardSection > div:first-child > ul > li> a:hover::before {
-   color: var(--4thBlue);
+   color: var(--white-col);
 }
 
 .cardSection > div:nth-child(2) {
@@ -483,7 +483,7 @@ header h1 {
    margin: 0 auto 1.5rem;
    width: fit-content;
    color: var(--1stBlue);
-   font-weight: 1000;
+   font-weight: 700;
    font-size: 4.5rem;
    letter-spacing: 0.1rem;
    line-height: 4rem;
@@ -500,7 +500,7 @@ header h1 {
 
 .aboutUsSection > div > div > p {
    font-size: 1.7rem;
-   font-weight: 700;
+   font-weight: 500;
    letter-spacing: 0.05rem;
    color: var(--2ndGray);
    text-align: justify;
@@ -536,7 +536,7 @@ header h1 {
 .presidentSection > h2 {
    color: var(--1stBlue);
    font-size: 4rem;
-   font-weight: 900;
+   font-weight: 700;
    margin-bottom: 3rem;
    letter-spacing: 0.1rem;
 }
@@ -582,7 +582,7 @@ header h1 {
 
 .presidentGrid > div:nth-child(1) > p {
    color: var(--3rdGray);
-   font-weight: 600;
+   font-weight: 500;
    font-size: 1.7rem;
    letter-spacing: 0.05rem;
    text-align: justify;
@@ -621,7 +621,7 @@ header h1 {
 .contactUsSection > h2 {
    color: var(--1stBlue);
    font-size: 4.5rem;
-   font-weight: 900;
+   font-weight: 700;
    letter-spacing: 0.1rem;
 }
 
@@ -838,8 +838,8 @@ footer {
    flex-direction: column;
    align-items: center;
    gap: 1rem;
-   background-color: var(--1stBlue);
-   color: var(--4thBlue);
+   background-color: var(--black-color);
+   color: var(--white-col);
    font-size: 2rem;
    padding: 3.5rem 0;
    margin-top: 7.5rem;
@@ -852,7 +852,7 @@ footer > span {
 footer > a {
    text-decoration: none;
    font-size: 1.7rem;
-   color: var(--4thBlue);
+   color: var(--white-col);
    font-weight: 800;
 }
 
