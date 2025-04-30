@@ -265,7 +265,7 @@ header h1 {
    /* line-height: 2rem; */
    color: var(--3rdGray);
    letter-spacing: 0.07rem;
-   text-align: justify;
+   line-height: 2.4rem;
 }
 
 .BKgrid > div:nth-child(2) {
