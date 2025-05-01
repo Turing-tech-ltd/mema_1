@@ -20,6 +20,12 @@
    --white-col: #fff;
 }
 
+html, body {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
 
 /* ===========  H E A D E R  =========== */
 header {
@@ -245,6 +251,7 @@ header h1 {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   flex: 1;
 }
 
 .taxSection > h2 {

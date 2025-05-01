@@ -17,6 +17,12 @@
    --1stRed: #ef4237;
 }
 
+html, body {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
 html {
    scroll-padding-top: 6.5rem;
    scroll-behavior: smooth;
