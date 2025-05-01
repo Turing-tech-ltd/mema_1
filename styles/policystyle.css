@@ -147,7 +147,7 @@ header h1 {
    justify-content: space-between;
    padding: 1.3rem 5%;
    border-bottom: 0.2rem solid var(--1stBlue);
-   background-color: var(--4thBlue);
+   background-color: var(--gold-color);
    position: sticky;
    top: 0;
    z-index: 3;
@@ -163,8 +163,9 @@ header h1 {
    font-size: 8.5rem;
    line-height: 8rem;
    display: flex;
-   background-color: var(--4thBlue);
+   background: none;
    border: none;
+   /* border: 1px solid rgba(0, 0, 0, 0.2); */
 }
 
 .mobileNav > div:nth-child(2) {
@@ -207,27 +208,25 @@ header h1 {
    flex-direction: column;
    gap: 2rem;
    background-color: var(--2ndBlue);
-   width: 97rem;
+   width: 90rem;
    top: 115%;
    left: -90%;
-   border-bottom-right-radius: 2.5rem;
-   overflow: hidden;
 }
 
 .mobileMenu > li {
    border-bottom: 0.4rem solid var(--4thBlue);
+   padding: 1rem;
 }
 
 .mobileMenu a {
    display: flex;
    align-items: center;
-   justify-content: center;
    text-decoration: none;
-   font-size: 6rem;
+   font-size: 5rem;
    letter-spacing: 0.3rem;
    font-weight: 800;
    color: var(--4thBlue);
-   padding: 2rem 0rem 3rem 0rem;
+   padding: 2rem 0rem 2rem 15rem;
 }
 /* ===========  E N D   O F   N A V I G A T I O N   B A R  =========== */
 

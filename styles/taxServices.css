@@ -146,7 +146,7 @@ header h1 {
    justify-content: space-between;
    padding: 1.3rem 5%;
    border-bottom: 0.2rem solid var(--1stBlue);
-   background-color: var(--4thBlue);
+   background-color: var(--gold-color);
    position: sticky;
    top: 0;
    z-index: 3;
@@ -162,8 +162,9 @@ header h1 {
    font-size: 8.5rem;
    line-height: 8rem;
    display: flex;
-   background-color: var(--4thBlue);
+   background: none;
    border: none;
+   /* border: 1px solid rgba(0, 0, 0, 0.2); */
 }
 
 .mobileNav > div:nth-child(2) {
@@ -213,6 +214,7 @@ header h1 {
 
 .mobileMenu > li {
    border-bottom: 0.4rem solid var(--4thBlue);
+   padding: 1rem;
 }
 
 .mobileMenu a {
@@ -255,17 +257,17 @@ header h1 {
 
 .BKgrid {
    display: grid;
-   grid-template-columns: 6fr 4.5fr;
+   grid-template-columns: 1fr;
    gap: 4rem;
 }
 
 .BKgrid > div:nth-child(1) > p {
-   font-size: 1.7rem;
+   font-size: 4rem;
    font-weight: 500;
    /* line-height: 2rem; */
    color: var(--3rdGray);
+   line-height: 7rem;
    letter-spacing: 0.07rem;
-   line-height: 2.4rem;
 }
 
 .BKgrid > div:nth-child(2) {
@@ -331,3 +333,16 @@ footer img {
    width: 10rem;
 }
 /* ====== E N D   O F   F O O T E R   S E C T I O N   ====== */
+
+
+
+@media (min-width: 768px){
+   .BKgrid {
+      grid-template-columns: 6fr 4.5fr;
+   }
+
+   .BKgrid > div:nth-child(1) > p{
+      font-size: 1.7rem;
+      line-height: 2.4rem;
+   }
+}
